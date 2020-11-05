@@ -1,26 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_lstnew.c                                        :+:    :+:            */
+/*   ft_strrchr.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:47:09 by qli            #+#    #+#                */
-/*   Updated: 2019/11/20 17:40:05 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:48:00 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <stdlib.h>
+#include "../libft.h"
 
-t_list	*ft_lstnew(void *content)
+char	*ft_strrchr(const char *s, int c)
 {
-	t_list	*a;
+	int i;
 
-	a = (t_list *)malloc(sizeof(t_list));
-	if (a == 0)
-		return (0);
-	a->content = content;
-	a->next = 0;
-	return (a);
+	i = ft_strlen((char *)s);
+	if (c == '\0')
+	{
+		return ((char *)s + ft_strlen((char *)s));
+	}
+	while (i >= 0)
+	{
+		if (((char *)s)[i] == (char)c)
+		{
+			return ((char *)s + i);
+		}
+		i--;
+	}
+	return (NULL);
 }

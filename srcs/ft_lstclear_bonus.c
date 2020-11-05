@@ -1,27 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_memchr.c                                        :+:    :+:            */
+/*   ft_lstclear_bonus.c                                :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:47:17 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 13:37:44 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:46:53 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
+#include <stdlib.h>
 
-void	*ft_memchr(const void *s, int c, size_t n)
+void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
-	size_t i;
+	t_list *temp;
 
-	i = 0;
-	while (i < n)
+	temp = *lst;
+	if (!*lst || !del)
+		return ;
+	while (*lst != 0)
 	{
-		if (((unsigned char *)s)[i] == (unsigned char)c)
-			return ((void *)s + i);
-		i++;
+		temp = (*lst)->next;
+		del((*lst)->content);
+		free(*lst);
+		*lst = temp;
 	}
-	return (NULL);
+	*lst = 0;
 }

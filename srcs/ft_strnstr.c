@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/11 15:50:44 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 17:00:39 by qli           ########   odam.nl         */
+/*   Created: 2019/11/11 15:50:44 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 static int	ft_str_check(const char *haystack, const char *needle,
 size_t len_left)

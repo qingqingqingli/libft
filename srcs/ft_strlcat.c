@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:47:49 by qli            #+#    #+#                */
-/*   Updated: 2019/11/18 15:47:18 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:47:49 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

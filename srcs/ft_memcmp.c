@@ -1,33 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_strchr.c                                        :+:    :+:            */
+/*   ft_memcmp.c                                        :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:47:42 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 13:38:39 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:47:19 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-char	*ft_strchr(const char *s, int c)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	int i;
+	size_t	i;
 
 	i = 0;
-	if (c == '\0')
+	while (i < n)
 	{
-		return ((char *)s + ft_strlen((char *)s));
-	}
-	while (((char *)s)[i] != '\0')
-	{
-		if (((char *)s)[i] == (char)c)
+		if (((unsigned char *)s1)[i] == ((unsigned char *)s2)[i])
 		{
-			return ((char *)s + i);
+			i++;
 		}
-		i++;
+		else
+		{
+			return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
+		}
 	}
-	return (NULL);
+	return (0);
 }

@@ -1,21 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_lstadd_front.c                                  :+:    :+:            */
+/*   ft_bzero.c                                         :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:46:50 by qli            #+#    #+#                */
-/*   Updated: 2019/11/21 13:32:38 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:46:26 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-void	ft_lstadd_front(t_list **alst, t_list *new)
+void	ft_bzero(void *s, size_t n)
 {
-	if (!alst || !new)
-		return ;
-	new->next = *alst;
-	*alst = new;
+	size_t i;
+
+	i = 0;
+	while (n > 0)
+	{
+		((char *)s)[i] = '\0';
+		i++;
+		n--;
+	}
 }

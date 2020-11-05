@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_isalnum.c                                       :+:    :+:            */
+/*   ft_lstnew_bonus.c                                  :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:46:32 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 16:31:25 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:47:09 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
+#include <stdlib.h>
 
-int	ft_isalnum(int c)
+t_list	*ft_lstnew(void *content)
 {
-	if (ft_isalpha(c) > 0 || ft_isdigit(c) > 0)
-	{
-		return (1);
-	}
-	else
-	{
+	t_list	*a;
+
+	a = (t_list *)malloc(sizeof(t_list));
+	if (a == 0)
 		return (0);
-	}
+	a->content = content;
+	a->next = 0;
+	return (a);
 }

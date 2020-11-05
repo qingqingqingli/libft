@@ -1,22 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_lstdelone_bonus.c                               :+:    :+:            */
+/*   ft_memchr.c                                        :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:46:57 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 13:43:08 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:47:17 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <stdlib.h>
+#include "../libft.h"
 
-void	ft_lstdelone(t_list *lst, void (*del)(void*))
+void	*ft_memchr(const void *s, int c, size_t n)
 {
-	if (!lst || !del)
-		return ;
-	del(lst->content);
-	free(lst);
+	size_t i;
+
+	i = 0;
+	while (i < n)
+	{
+		if (((unsigned char *)s)[i] == (unsigned char)c)
+			return ((void *)s + i);
+		i++;
+	}
+	return (NULL);
 }

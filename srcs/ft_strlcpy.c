@@ -1,24 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_lstlast.c                                       :+:    :+:            */
+/*   ft_strlcpy.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:47:03 by qli            #+#    #+#                */
-/*   Updated: 2019/11/20 18:09:54 by qli           ########   odam.nl         */
+/*   Created: 2019/11/11 14:22:31 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-t_list	*ft_lstlast(t_list *lst)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	if (!lst)
+	size_t i;
+
+	i = 0;
+	if (!dst && !src)
 		return (0);
-	while (lst->next != 0)
+	if (dstsize == 0)
+		return (ft_strlen(src));
+	while (src[i] != '\0' && i < dstsize - 1)
 	{
-		lst = lst->next;
+		dst[i] = src[i];
+		i++;
 	}
-	return (lst);
+	dst[i] = '\0';
+	while (src[i] != '\0')
+		i++;
+	return (i);
 }

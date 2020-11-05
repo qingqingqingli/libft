@@ -1,28 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_memcpy.c                                        :+:    :+:            */
+/*   ft_lstsize_bonus.c                                 :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:47:22 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 17:18:50 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:47:12 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-void	*ft_memcpy(void *dst, const void *src, size_t n)
+int		ft_lstsize(t_list *lst)
 {
-	size_t i;
+	int i;
 
-	i = 0;
-	if (!dst && !src)
+	i = 1;
+	if (!lst)
 		return (0);
-	while (n > i)
+	while (lst->next != 0)
 	{
-		((char *)dst)[i] = ((char *)src)[i];
+		lst = lst->next;
 		i++;
 	}
-	return (dst);
+	return (i);
 }

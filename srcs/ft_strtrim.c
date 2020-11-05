@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/20 14:23:34 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 15:49:49 by qli           ########   odam.nl         */
+/*   Created: 2019/11/20 14:23:34 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 #include <stdlib.h>
 
 static size_t	ft_check_char(char const c, char const *set)

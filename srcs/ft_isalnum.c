@@ -1,33 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_strrchr.c                                       :+:    :+:            */
+/*   ft_isalnum.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/12 12:48:00 by qli            #+#    #+#                */
-/*   Updated: 2019/11/28 13:39:16 by qli           ########   odam.nl         */
+/*   Created: 2019/11/12 12:46:32 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/05 10:40:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+int	ft_isalnum(int c)
 {
-	int i;
-
-	i = ft_strlen((char *)s);
-	if (c == '\0')
+	if (ft_isalpha(c) > 0 || ft_isdigit(c) > 0)
 	{
-		return ((char *)s + ft_strlen((char *)s));
+		return (1);
 	}
-	while (i >= 0)
+	else
 	{
-		if (((char *)s)[i] == (char)c)
-		{
-			return ((char *)s + i);
-		}
-		i--;
+		return (0);
 	}
-	return (NULL);
 }
