@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/qingqingqingli/readme_images/blob/master/codam_logo.png">
+</p>
+
 ## libft
 This project creates a library with standard libc functions and some other generic functions.
 
