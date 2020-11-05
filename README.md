@@ -9,9 +9,9 @@ Run the following commands:
 
 * To compile
 	- `make`
-* To remove objects:
+* To remove object files:
 	- `make clean`
-* To remove objects and executable:
+* To remove object files and executable:
 	- `make fclean`
 * To re-compile:
 	- `make re`
