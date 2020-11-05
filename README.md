@@ -1,6 +1,4 @@
 ## libft
-
-## About
 This project creates a library with standard libc functions and some other generic functions.
 
 ## Getting started
