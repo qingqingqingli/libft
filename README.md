@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/qingqingqingli/readme_images/blob/master/codam_logo.png" height='100'>
+  <img src="https://github.com/qingqingqingli/readme_images/blob/master/codam_logo.png" height='200'>
 </p>
 
 ## libft
