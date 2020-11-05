@@ -3,7 +3,7 @@
 </p>
 
 ## libft
-***This project creates a library with standard libc functions and some other generic functions.***
+***In this project, we are asked to create a library with standard libc functions and several other generic functions. These functions will be used for later 42 projects.***
 
 ## Getting started
 
