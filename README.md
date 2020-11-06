@@ -16,6 +16,10 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 
 * [ft_atoi](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_atoi.c)
 * [ft_bzero](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_bzero.c)
+* [ft_calloc](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_calloc.c)
+* [ft_isalnum](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isalnum.c)
+* [ft_isalpha](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isalpha.c)
+* [ft_isascii](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isascii.c)
 
 
 ## Compilation
