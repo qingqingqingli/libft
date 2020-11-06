@@ -9,7 +9,7 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 
 ## Technical considerations
 
-- Allowed functions: malloc, free, write
+- Allowed functions: *malloc*, *free*, *write*
 - All heap allocated memory space must be properly freed when necessary
 
 ## Included functions
