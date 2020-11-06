@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/qingqingqingli/readme_images/blob/master/codam_logo.png" height='200'>
-</p>
+[![Logo](https://github.com/qingqingqingli/readme_images/blob/master/codam_logo_1.png)](https://github.com/qingqingqingli/libft)
 
 # libft
 ***This project creates a library with standard libc functions and several other generic functions, which will be used for other 42 projects.***
