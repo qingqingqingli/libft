@@ -24,7 +24,7 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 * [ft_isprint](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isprint.c)
 * [ft_itoa](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_itoa.c)
 
--> linked list related functions
+> linked list related functions
 * [ft_lstadd_back](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstadd_back_bonus.c)
 * [ft_lstadd_front](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstadd_front_bonus.c)
 * [ft_lstclear](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstclear_bonus.c)
