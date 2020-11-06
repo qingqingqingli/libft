@@ -5,6 +5,8 @@
 ## libft
 ***This project creates a library with standard libc functions and some other generic functions.***
 
+The purpose or this project is not to reinvent the wheels. But it helps us to develop a deep understanding of the standard libc functions and how to use them. 
+
 ## Getting started
 
 ### Compilation
