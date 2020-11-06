@@ -82,3 +82,6 @@ Run the following commands:
 To test the library, compile with your program. i.e.
 
 `./program libft.a`
+
+<!-- To do list
+- add test results or a test file -->
