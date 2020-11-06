@@ -12,9 +12,9 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 - Allowed functions: malloc, free, write
 - All heap allocated memory space must be properly freed when necessary
 
-### Included functions
+## Included functions
 
-> libc functions
+> libc functionss
 * [ft_atoi](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_atoi.c)
 * [ft_bzero](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_bzero.c)
 * [ft_calloc](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_calloc.c)
