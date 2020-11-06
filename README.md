@@ -15,7 +15,6 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 ## Included functions
 
 > libc functionss
-* [ft_atoi](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_atoi.c)
 * [ft_bzero](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_bzero.c)
 * [ft_calloc](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_calloc.c)
 * [ft_isalnum](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isalnum.c)
@@ -33,12 +32,28 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 * [ft_putchar_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putchar_fd.c)
 * [ft_putendl_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putendl_fd.c)
 * [ft_putnbr_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putnbr_fd.c)
+* [ft_tolower](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_tolower.c)
+* [ft_toupper](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_substr.c)
+
+> string manipulation
+* [ft_atoi](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_atoi.c)
 * [ft_putstr_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putstr_fd.c)
 * [ft_split](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_split.c)
 * [ft_strchr](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strchr.c)
 * [ft_strdup](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strdup.c)
+* [ft_strjoin](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strjoin.c)
+* [ft_strlcat](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strlcat.c)
+* [ft_strlcpy](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strlcpy.c)
+* [ft_strlen](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strlen.c)
+* [ft_strmapi](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strmapi.c)
+* [ft_strncmp](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strncmp.c)
+* [ft_strnstr](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strnstr.c)
+* [ft_strncmp](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strncmp.c)
+* [ft_strrchr](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strrchr.c)
+* [ft_strtrim](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strtrim.c)
+* [ft_substr](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_substr.c)
 
-> linked list related functions
+> linked list manipulation
 * [ft_lstadd_back](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstadd_back_bonus.c)
 * [ft_lstadd_front](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstadd_front_bonus.c)
 * [ft_lstclear](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstclear_bonus.c)
