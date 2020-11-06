@@ -7,11 +7,11 @@
 
 The purpose is not to reinvent the wheels, but to help us to develop a deep understanding of the standard libc functions and how to use them. 
 
-## Technical considerations
+### Technical considerations
 - Allowed functions: malloc, free, write
 - All heap allocated memory space must be properly freed when necessary
 
-## Compilation
+### Compilation
 
 Run the following commands:
 
@@ -24,7 +24,7 @@ Run the following commands:
 * To re-compile:
 	- `make re`
 
-## How to test
+### How to test
 
 To test the library, compile with your program. i.e.
 
