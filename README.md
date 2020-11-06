@@ -24,12 +24,29 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 * [ft_isdigit](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isdigit.c)
 * [ft_isprint](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_isprint.c)
 * [ft_itoa](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_itoa.c)
+* [ft_memccpy](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_memccpy.c)
+* [ft_memchr](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_memchr.c)
+* [ft_memcmp](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_memcmp.c)
+* [ft_memcpy](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_memcpy.c)
+* [ft_memmove](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_memmove.c)
+* [ft_memset](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_memset.c)
+* [ft_putchar_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putchar_fd.c)
+* [ft_putendl_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putendl_fd.c)
+* [ft_putnbr_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putnbr_fd.c)
+* [ft_putstr_fd](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_putstr_fd.c)
+* [ft_split](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_split.c)
+* [ft_strchr](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strchr.c)
+* [ft_strdup](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_strdup.c)
 
 > linked list related functions
 * [ft_lstadd_back](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstadd_back_bonus.c)
 * [ft_lstadd_front](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstadd_front_bonus.c)
 * [ft_lstclear](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstclear_bonus.c)
 * [ft_lstdelone](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstdelone_bonus.c)
+* [ft_lstiter](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstiter_bonus.c)
+* [ft_lstlast](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstlast_bonus.c)
+* [ft_lstnew](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstnew_bonus.c)
+* [ft_lstsize](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstsize_bonus.c)
 
 
 ## Compilation
