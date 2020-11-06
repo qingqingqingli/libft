@@ -34,7 +34,7 @@ The purpose is not to reinvent the wheels, but to help us to develop a deep unde
 * [ft_strnstr](/libft/srcs/ft_strnstr.c)
 * [ft_strcmp](/libft/srcs/ft_strcmp.c)
 * [ft_strncmp](/libft/srcs/ft_strncmp.c)
-* [ft_atoi](/libft/srcs/ft_atoi.c)
+* [ft_atoi](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_atoi.c)
 * [ft_isalpha](/libft/srcs/ft_isalpha.c)
 * [ft_isdigit](/libft/srcs/ft_isdigit.c)
 * [ft_isalnum](/libft/srcs/ft_isalnum.c)
