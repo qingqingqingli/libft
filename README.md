@@ -79,8 +79,7 @@ Run the following commands:
 
 To test the library, compile with your test file. i.e.
 
-shell
-```
+``` shell
 $ gcc test.c libft.a
 $ ./a.out
 ```
