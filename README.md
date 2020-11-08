@@ -77,7 +77,7 @@ Run the following commands:
 
 ## How to test
 
-To test the library, compile with your test file. i.e.
+To test the library, compile the ```libft.a``` library with your test file.
 
 ``` shell
 $ gcc test.c libft.a
