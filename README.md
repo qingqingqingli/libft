@@ -72,7 +72,7 @@ The purpose is not to reinvent the wheels, but to help us develop a deep underst
 int	main(void)
 {
 	char	*str;
-	int		ret;
+	int	ret;
 
 	str = "123456789";
 	ret = ft_atoi(str);
