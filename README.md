@@ -77,12 +77,19 @@ Run the following commands:
 
 ## How to test
 
-To test the library, compile the ```libft.a``` library with your test file.
+> To test the library, create a test.c file to compile with the ```libft.a``` library.
+
+``` C
+```
+
+> Run the commands below
 
 ``` shell
 $ gcc test.c libft.a
 $ ./a.out
 ```
+
+## Examples
 
 <!-- To do list
 - add test results or a test file -->
