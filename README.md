@@ -63,7 +63,7 @@ The purpose is not to reinvent the wheels, but to help us develop a deep underst
 
 ## How to test
 
-> To test the library, create a test.c file to compile with the ```libft.a``` library.
+> To test the library, create a ```test.c``` file to compile with the ```libft.a``` library
 
 ``` C
 # include "libft.h"
@@ -81,17 +81,24 @@ int	main(void)
 }
 ```
 
-> Run the commands below
+> Run the commands below. You can replace the ```test.c``` with your own test file
 
 ``` shell
 $ git clone https://github.com/qingqingqingli/libft.git
 $ cd libft
 $ make
+$ make bonus
 $ gcc test.c libft.a
 $ ./a.out
 ```
 
 ## Examples
+
+- Create ```libft.a```
+[![libft_0](https://github.com/qingqingqingli/readme_images/blob/master/libft_0.png)](https://github.com/qingqingqingli/libft)
+
+- Add bonus function to ```libft.a``` and compile with ```test.c```
+[![libft_1](https://github.com/qingqingqingli/readme_images/blob/master/libft_1.png)](https://github.com/qingqingqingli/libft)
 
 
 <!-- ## Compilation
