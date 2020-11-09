@@ -80,6 +80,19 @@ Run the following commands:
 > To test the library, create a test.c file to compile with the ```libft.a``` library.
 
 ``` C
+# include "libft.h"
+# include <stdio.h>
+
+int	main(void)
+{
+	char	*str;
+	int		ret;
+
+	str = "123456789";
+	ret = ft_atoi(str);
+	printf("ret is %d\n", ret);
+	return (0);
+}
 ```
 
 > Run the commands below
