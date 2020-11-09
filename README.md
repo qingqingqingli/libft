@@ -61,20 +61,6 @@ The purpose is not to reinvent the wheels, but to help us develop a deep underst
 * [ft_lstnew](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstnew_bonus.c)
 * [ft_lstsize](https://github.com/qingqingqingli/libft/blob/master/srcs/ft_lstsize_bonus.c)
 
-
-## Compilation
-
-Run the following commands:
-
-* To compile
-	- `make`
-* To remove object files:
-	- `make clean`
-* To remove object files and executable:
-	- `make fclean`
-* To re-compile:
-	- `make re`
-
 ## How to test
 
 > To test the library, create a test.c file to compile with the ```libft.a``` library.
@@ -98,11 +84,25 @@ int	main(void)
 > Run the commands below
 
 ``` shell
+$ git clone https://github.com/qingqingqingli/libft.git
+$ cd libft
+$ make
 $ gcc test.c libft.a
 $ ./a.out
 ```
 
 ## Examples
 
-<!-- To do list
-- add test results or a test file -->
+
+<!-- ## Compilation
+
+Run the following commands:
+
+* To compile
+	- `make`
+* To remove object files:
+	- `make clean`
+* To remove object files and executable:
+	- `make fclean`
+* To re-compile:
+	- `make re` -->
